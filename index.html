@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Realtime Chatting</title>
+    <script src="socketio.js"></script>
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div id="getNickname">
+      Enter your nickname:
+      <input id="nickname" placeholder="Nick" />
+      <strong id="nicknameError"></strong>
+    </div>
+    <div id="loadingScreenCover">
+      <div id="loadingScreen" class="fa fa-cog fa-spin"></div>
+    </div>
+    <div id="myNickname"></div>
+    <input id="send" placeholder="Enter a message" />
+    <div id="uploadPhoto" class="fa fa-camera-retro" title="Send a photo"></div>
+    <div id="nicknames"></div>
+    <div id="messages"></div>
+    <a id="thehomeworklifelogosnippet" href="http://www.thehomeworklife.co.nf" target="_blank"><img id="snippetlogo" title="A work of TheHomeworkLife" src="http://s11.postimg.org/vxal52udb/Small_Logo.png"><style>a#thehomeworklifelogosnippet>img#snippetlogo{cursor: pointer;width:32px;height:32px;position:fixed;bottom:16px;right:16px;z-index:100;border-radius:32px;box-shadow:0 0 10px #888888;transition:all .5s;opacity:1}a#thehomeworklifelogosnippet>img#snippetlogo:hover{box-shadow:0 0 10px black}</style></a>
+  </body>
+</html>
